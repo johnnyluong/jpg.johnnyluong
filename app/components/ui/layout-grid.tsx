@@ -26,7 +26,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   };
 
   return (
-    <div className="w-full h-full grid grid-cols-1 md:grid-cols-3 max-w-8xl mx-auto gap-4 ">
+    <div className="w-full h-full grid grid-cols-1 md:grid-cols-5 max-w-8xl mx-auto gap-4 ">
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "")}>
           <motion.div
@@ -35,10 +35,10 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
               card.className,
               "relative overflow-hidden",
               selected?.id === card.id
-                ? "rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
+                ? "rounded-sm cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
                 : lastSelected?.id === card.id
-                ? "z-40 bg-white rounded-xl h-full w-full"
-                : "bg-white rounded-xl h-full w-full"
+                ? "z-40 bg-white rounded-sm h-full w-full"
+                : "bg-white rounded-lg h-full w-full"
             )}
             layout
           >
@@ -53,7 +53,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
           "absolute h-full w-full left-0 top-0 bg-black opacity-0 z-10",
           selected?.id ? "pointer-events-auto" : "pointer-events-none"
         )}
-        animate={{ opacity: selected?.id ? 0.3 : 0 }}
+        animate={{ opacity: selected?.id ? 0.6 : 0 }}
       />
     </div>
   );

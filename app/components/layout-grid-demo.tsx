@@ -65,29 +65,29 @@ const cards = [
   {
     id: 1,
     content: <SkeletonOne />,
-    className: "md:col-span-2",
+    className: "col-span-3",
     thumbnail:
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://lh3.googleusercontent.com/pw/AP1GczNNHxOd_PZW0MuK50y1kt3Em2pklHkMp5a0U0dLmjpO1-XBDmg9sg3p25dmvd6ivjq26o47NuB30u0R95piRemZPFFn0ZODEXOYkbwMdW_tvg6zwTa4qkGa-S8cNPEAcWJcrGCuarIf6NXD9bPJdkFH=w1410-h2115-s-no-gm?authuser=0",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
-    className: "col-span-1",
+    className: "col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://lh3.googleusercontent.com/pw/AP1GczPcV2cyJeDTTe_eGSPSudLci0H9zbYixA1OFy1UqN3gOqQmzCRk42GvhJJ3q3QwlbARyq1fq0Uz95kq0gEkrsuegoUDn9whQVVM7o9vo6VmWqdnZXR6ssNUk90a2GG16s2KArwN8wFX9wBJ6HtpfUbG=w1279-h2115-s-no-gm?authuser=0",
   },
   {
     id: 3,
     content: <SkeletonThree />,
-    className: "col-span-1",
+    className: "col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://lh3.googleusercontent.com/pw/AP1GczPBD1_p8BJCK4G9uMyiCyk0yt3GmXRGIQnSjQEJBjXLAa_COlUs4Mnbg4byiu1LBNfxIB4pBLYSxeYVktfiIGONsgEho4RjMB1KeKnZc5lnEtVmq_zt58snWQiJcgCz2iBwrcNLyTQ86zLtoLWQn2PC=w1415-h2083-s-no-gm?authuser=0",
   },
   {
     id: 4,
     content: <SkeletonFour />,
-    className: "md:col-span-2",
+    className: "col-span-3",
     thumbnail:
-      "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://lh3.googleusercontent.com/pw/AP1GczMARZJ9wMDpMnkWl2iMv5d47nDSfLFeojtTnImMcPCQR2ParZNXesHhR4pfbFhHSsmc1K-H_UNcXzCuU2YdACEW-QFI-nM22GZhrzemH9AlhuoKMGKjPpbm0ABWwENpK_InCguyRfALM-ZvPExijp5H=w1374-h2115-s-no-gm?authuser=0",
   },
 ];

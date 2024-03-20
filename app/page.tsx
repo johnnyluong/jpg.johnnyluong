@@ -14,7 +14,7 @@ export default function Home() {
           </Avatar>
 
           <div className="flex flex-row text-lg md:text-xl pt-3">
-            <div className="font-md dark:text-white">Johnny Luong</div>
+            <div className="font-light dark:text-white">Johnny Luong</div>
             <div className="px-4 font-extralight italic text-slate-500 dark:text-white">
               @johnnyluong_
             </div>
